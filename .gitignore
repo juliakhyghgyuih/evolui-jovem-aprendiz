@@ -1,0 +1,7 @@
+# Credenciais da máquina local - nunca versionar
+config.php
+
+# Arquivos do sistema e do editor
+Thumbs.db
+desktop.ini
+.vscode/

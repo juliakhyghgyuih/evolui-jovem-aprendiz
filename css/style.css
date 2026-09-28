@@ -1,0 +1,296 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ed;
+    color: #333;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #ffffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    border-bottom: 1px solid #e5e0d5;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #b28a28;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #b28a28;
+}
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+}
+
+.texto-inicio {
+    max-width: 650px;
+}
+
+.texto-inicio h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    color: #302d28;
+}
+
+.texto-inicio p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #625e56;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+.botao,
+.botao-secundario {
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao {
+    background-color: #c7a34b;
+    color: white;
+}
+
+.botao:hover {
+    background-color: #aa872f;
+}
+
+.botao-secundario {
+    border: 1px solid #c7a34b;
+    color: #9b7924;
+    background-color: white;
+}
+
+.botao-secundario:hover {
+    background-color: #f3ead4;
+}
+
+/* ÁREAS */
+
+.areas {
+    background-color: #ffffff;
+    padding: 60px 10%;
+}
+
+.areas h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #302d28;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #e5e0d5;
+    border-radius: 12px;
+    padding: 25px;
+    background-color: #fffdf8;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    color: #9b7924;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* OPORTUNIDADES */
+
+.oportunidades {
+    padding: 60px 10%;
+    text-align: center;
+    background-color: #f1eadb;
+}
+
+.oportunidades h2 {
+    margin-bottom: 20px;
+    color: #302d28;
+}
+
+.oportunidades p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    color: #625e56;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #302d28;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+}
+/* ============================= */
+/* LOGIN */
+/* ============================= */
+
+.login {
+    min-height: 650px;
+    padding: 70px 10%;
+    background-color: #f8f5ed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-conteudo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-titulo h1 {
+    font-size: 38px;
+    color: #302d28;
+    margin-bottom: 12px;
+}
+
+.login-titulo p {
+    color: #625e56;
+    font-size: 17px;
+}
+
+
+/* FORMULÁRIO */
+
+.formulario-login {
+    background-color: white;
+    padding: 40px;
+
+    border-radius: 14px;
+    border: 1px solid #e5e0d5;
+}
+
+
+/* CAMPOS */
+
+.formulario-login .campo {
+    margin-bottom: 20px;
+}
+
+.formulario-login label {
+    display: block;
+    margin-bottom: 7px;
+
+    font-weight: bold;
+    color: #444;
+}
+
+.formulario-login input {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #d8d1c3;
+    border-radius: 7px;
+
+    font-size: 15px;
+}
+
+.formulario-login input:focus {
+    outline: none;
+    border-color: #c7a34b;
+}
+
+
+/* BOTÃO */
+
+.formulario-login button {
+    width: 100%;
+
+    padding: 14px;
+    margin-top: 5px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #c7a34b;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.formulario-login button:hover {
+    background-color: #aa872f;
+}
+
+
+/* CADASTRO */
+
+.cadastre-se {
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #666;
+}
+
+.cadastre-se a {
+    color: #9b7924;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cadastre-se a:hover {
+    color: #b28a28;
+}
